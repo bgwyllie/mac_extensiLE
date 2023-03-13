@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		112D914929BD120C0057BB6E /* mac_extensiLEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D914829BD120C0057BB6E /* mac_extensiLEApp.swift */; };
 		112D914B29BD120C0057BB6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D914A29BD120C0057BB6E /* ContentView.swift */; };
-		112D914D29BD120D0057BB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112D914C29BD120D0057BB6E /* Assets.xcassets */; };
-		112D915029BD120D0057BB6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112D914F29BD120D0057BB6E /* Preview Assets.xcassets */; };
 		112D915B29BD120D0057BB6E /* mac_extensiLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D915A29BD120D0057BB6E /* mac_extensiLETests.swift */; };
 		112D916529BD120D0057BB6E /* mac_extensiLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D916429BD120D0057BB6E /* mac_extensiLEUITests.swift */; };
 		112D916729BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D916629BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift */; };
+		112D917529BD12750057BB6E /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 112D917429BD12750057BB6E /* PythonKit */; };
+		112DA0C529BE645C0057BB6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112DA0C429BE645C0057BB6E /* SystemConfiguration.framework */; };
+		112DA0C629BE64680057BB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112D914C29BD120D0057BB6E /* Assets.xcassets */; };
+		112DA0D229BE67A60057BB6E /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112DA0D129BE67A60057BB6E /* Python.xcframework */; };
+		112DA0D329BE67A60057BB6E /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112DA0D129BE67A60057BB6E /* Python.xcframework */; };
+		112DA0D429BE67A60057BB6E /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112DA0D129BE67A60057BB6E /* Python.xcframework */; };
+		112DA0D629BE67B00057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; };
+		112DA0D729BE67B00057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; };
+		112DA0D829BE67B00057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; };
+		112DA0DA29BE691C0057BB6E /* python-stdlib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		112DA0DC29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
+		112DA0DD29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
+		112DA0DE29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
+		112DA0E129BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
+		112DA0E229BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
+		112DA0E329BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +47,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		112DA0D929BE69090057BB6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "python-stdlib";
+			dstSubfolderSpec = 7;
+			files = (
+				112DA0DA29BE691C0057BB6E /* python-stdlib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		112D914529BD120C0057BB6E /* mac_extensiLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mac_extensiLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112D914829BD120C0057BB6E /* mac_extensiLEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_extensiLEApp.swift; sourceTree = "<group>"; };
@@ -45,6 +72,11 @@
 		112D916029BD120D0057BB6E /* mac_extensiLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mac_extensiLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112D916429BD120D0057BB6E /* mac_extensiLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_extensiLEUITests.swift; sourceTree = "<group>"; };
 		112D916629BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_extensiLEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		112DA0C429BE645C0057BB6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		112DA0D129BE67A60057BB6E /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
+		112DA0D529BE67B00057BB6E /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
+		112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonKitTest.swift; sourceTree = "<group>"; };
+		112DA0E029BEA80E0057BB6E /* hello.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hello.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112D917529BD12750057BB6E /* PythonKit in Frameworks */,
+				112DA0D229BE67A60057BB6E /* Python.xcframework in Frameworks */,
+				112DA0C529BE645C0057BB6E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0D329BE67A60057BB6E /* Python.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0D429BE67A60057BB6E /* Python.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +112,13 @@
 		112D913C29BD120C0057BB6E = {
 			isa = PBXGroup;
 			children = (
+				112DA0D129BE67A60057BB6E /* Python.xcframework */,
+				112DA0D529BE67B00057BB6E /* python-stdlib */,
 				112D914729BD120C0057BB6E /* mac_extensiLE */,
 				112D915929BD120D0057BB6E /* mac_extensiLETests */,
 				112D916329BD120D0057BB6E /* mac_extensiLEUITests */,
 				112D914629BD120C0057BB6E /* Products */,
+				112DA0C329BE645C0057BB6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +135,13 @@
 		112D914729BD120C0057BB6E /* mac_extensiLE */ = {
 			isa = PBXGroup;
 			children = (
+				112DA0DF29BEA7D90057BB6E /* PythonTests */,
 				112D914829BD120C0057BB6E /* mac_extensiLEApp.swift */,
 				112D914A29BD120C0057BB6E /* ContentView.swift */,
 				112D914C29BD120D0057BB6E /* Assets.xcassets */,
 				112D915129BD120D0057BB6E /* mac_extensiLE.entitlements */,
 				112D914E29BD120D0057BB6E /* Preview Content */,
+				112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */,
 			);
 			path = mac_extensiLE;
 			sourceTree = "<group>";
@@ -129,6 +171,22 @@
 			path = mac_extensiLEUITests;
 			sourceTree = "<group>";
 		};
+		112DA0C329BE645C0057BB6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0C429BE645C0057BB6E /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		112DA0DF29BEA7D90057BB6E /* PythonTests */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0E029BEA80E0057BB6E /* hello.py */,
+			);
+			path = PythonTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,13 +196,18 @@
 			buildPhases = (
 				112D914129BD120C0057BB6E /* Sources */,
 				112D914229BD120C0057BB6E /* Frameworks */,
-				112D914329BD120C0057BB6E /* Resources */,
+				112D9D5229BD142F0057BB6E /* ShellScript */,
+				112DA08129BE4D540057BB6E /* Resources */,
+				112DA0D929BE69090057BB6E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = mac_extensiLE;
+			packageProductDependencies = (
+				112D917429BD12750057BB6E /* PythonKit */,
+			);
 			productName = mac_extensiLE;
 			productReference = 112D914529BD120C0057BB6E /* mac_extensiLE.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +280,9 @@
 				Base,
 			);
 			mainGroup = 112D913C29BD120C0057BB6E;
+			packageReferences = (
+				112D917329BD12750057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 112D914629BD120C0057BB6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,19 +295,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		112D914329BD120C0057BB6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				112D915029BD120D0057BB6E /* Preview Assets.xcassets in Resources */,
-				112D914D29BD120D0057BB6E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		112D915429BD120D0057BB6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0D729BE67B00057BB6E /* python-stdlib in Resources */,
+				112DA0E229BEA80E0057BB6E /* hello.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +308,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0D829BE67B00057BB6E /* python-stdlib in Resources */,
+				112DA0E329BEA80E0057BB6E /* hello.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112DA08129BE4D540057BB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112DA0E129BEA80E0057BB6E /* hello.py in Resources */,
+				112DA0D629BE67B00057BB6E /* python-stdlib in Resources */,
+				112DA0C629BE64680057BB6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112D9D5229BD142F0057BB6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nset -e\necho \"Signing as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)\"\nfind \"$CODESIGNING_FOLDER_PATH/Contents/Resources/python-stdlib/lib-dynload\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		112D914129BD120C0057BB6E /* Sources */ = {
@@ -260,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112D914B29BD120C0057BB6E /* ContentView.swift in Sources */,
+				112DA0DC29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112D914929BD120C0057BB6E /* mac_extensiLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0DD29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112D915B29BD120D0057BB6E /* mac_extensiLETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112D916729BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift in Sources */,
+				112DA0DE29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112D916529BD120D0057BB6E /* mac_extensiLEUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,6 +671,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		112D917329BD12750057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		112D917429BD12750057BB6E /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112D917329BD12750057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 112D913D29BD120C0057BB6E /* Project object */;
 }
