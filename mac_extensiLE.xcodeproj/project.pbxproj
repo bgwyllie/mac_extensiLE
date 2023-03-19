@@ -28,6 +28,27 @@
 		112DA0E129BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
 		112DA0E229BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
 		112DA0E329BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
+		112DA0E629BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
+		112DA0E729BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
+		112DA0E829BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
+		112DA0EB29BF642D0057BB6E /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EA29BF642D0057BB6E /* EducationView.swift */; };
+		112DA0EC29BF642D0057BB6E /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EA29BF642D0057BB6E /* EducationView.swift */; };
+		112DA0ED29BF642D0057BB6E /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EA29BF642D0057BB6E /* EducationView.swift */; };
+		112DA0F029BF64550057BB6E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EF29BF64550057BB6E /* AccountView.swift */; };
+		112DA0F129BF64550057BB6E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EF29BF64550057BB6E /* AccountView.swift */; };
+		112DA0F229BF64550057BB6E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0EF29BF64550057BB6E /* AccountView.swift */; };
+		112DA0F529BF64A90057BB6E /* RecordPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0F429BF64A90057BB6E /* RecordPlayView.swift */; };
+		112DA0F629BF64A90057BB6E /* RecordPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0F429BF64A90057BB6E /* RecordPlayView.swift */; };
+		112DA0F729BF64A90057BB6E /* RecordPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0F429BF64A90057BB6E /* RecordPlayView.swift */; };
+		112DA70429BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
+		112DA70529BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
+		112DA70629BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
+		112DA70929BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
+		112DA70A29BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
+		112DA70B29BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
+		112DA71129C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
+		112DA71229C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
+		112DA71329C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +98,13 @@
 		112DA0D529BE67B00057BB6E /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
 		112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonKitTest.swift; sourceTree = "<group>"; };
 		112DA0E029BEA80E0057BB6E /* hello.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hello.py; sourceTree = "<group>"; };
+		112DA0E529BF63D70057BB6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		112DA0EA29BF642D0057BB6E /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		112DA0EF29BF64550057BB6E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		112DA0F429BF64A90057BB6E /* RecordPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayView.swift; sourceTree = "<group>"; };
+		112DA70329BFBB450057BB6E /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
+		112DA70829BFC1010057BB6E /* UploadData.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = UploadData.py; sourceTree = "<group>"; };
+		112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ClassificationAlgorithms.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +163,12 @@
 		112D914729BD120C0057BB6E /* mac_extensiLE */ = {
 			isa = PBXGroup;
 			children = (
+				112DA70729BFC0E90057BB6E /* PythonFiles */,
+				112DA70229BFBB2C0057BB6E /* AddData */,
+				112DA0F329BF64990057BB6E /* RecordPlay */,
+				112DA0EE29BF64480057BB6E /* Account */,
+				112DA0E929BF64130057BB6E /* Education */,
+				112DA0E429BF63BF0057BB6E /* Home */,
 				112DA0DF29BEA7D90057BB6E /* PythonTests */,
 				112D914829BD120C0057BB6E /* mac_extensiLEApp.swift */,
 				112D914A29BD120C0057BB6E /* ContentView.swift */,
@@ -185,6 +219,55 @@
 				112DA0E029BEA80E0057BB6E /* hello.py */,
 			);
 			path = PythonTests;
+			sourceTree = "<group>";
+		};
+		112DA0E429BF63BF0057BB6E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0E529BF63D70057BB6E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		112DA0E929BF64130057BB6E /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0EA29BF642D0057BB6E /* EducationView.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		112DA0EE29BF64480057BB6E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0EF29BF64550057BB6E /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		112DA0F329BF64990057BB6E /* RecordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				112DA0F429BF64A90057BB6E /* RecordPlayView.swift */,
+			);
+			path = RecordPlay;
+			sourceTree = "<group>";
+		};
+		112DA70229BFBB2C0057BB6E /* AddData */ = {
+			isa = PBXGroup;
+			children = (
+				112DA70329BFBB450057BB6E /* AddDataView.swift */,
+			);
+			path = AddData;
+			sourceTree = "<group>";
+		};
+		112DA70729BFC0E90057BB6E /* PythonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				112DA70829BFC1010057BB6E /* UploadData.py */,
+				112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */,
+			);
+			path = PythonFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +382,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA71229C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
+				112DA70A29BFC1010057BB6E /* UploadData.py in Resources */,
 				112DA0D729BE67B00057BB6E /* python-stdlib in Resources */,
 				112DA0E229BEA80E0057BB6E /* hello.py in Resources */,
 			);
@@ -308,6 +393,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA71329C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
+				112DA70B29BFC1010057BB6E /* UploadData.py in Resources */,
 				112DA0D829BE67B00057BB6E /* python-stdlib in Resources */,
 				112DA0E329BEA80E0057BB6E /* hello.py in Resources */,
 			);
@@ -320,6 +407,8 @@
 				112DA0E129BEA80E0057BB6E /* hello.py in Resources */,
 				112DA0D629BE67B00057BB6E /* python-stdlib in Resources */,
 				112DA0C629BE64680057BB6E /* Assets.xcassets in Resources */,
+				112DA71129C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
+				112DA70929BFC1010057BB6E /* UploadData.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +440,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0F529BF64A90057BB6E /* RecordPlayView.swift in Sources */,
+				112DA0F029BF64550057BB6E /* AccountView.swift in Sources */,
+				112DA70429BFBB450057BB6E /* AddDataView.swift in Sources */,
+				112DA0EB29BF642D0057BB6E /* EducationView.swift in Sources */,
 				112D914B29BD120C0057BB6E /* ContentView.swift in Sources */,
+				112DA0E629BF63D70057BB6E /* HomeView.swift in Sources */,
 				112DA0DC29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112D914929BD120C0057BB6E /* mac_extensiLEApp.swift in Sources */,
 			);
@@ -361,8 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0E729BF63D70057BB6E /* HomeView.swift in Sources */,
+				112DA0EC29BF642D0057BB6E /* EducationView.swift in Sources */,
 				112DA0DD29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
+				112DA0F629BF64A90057BB6E /* RecordPlayView.swift in Sources */,
 				112D915B29BD120D0057BB6E /* mac_extensiLETests.swift in Sources */,
+				112DA0F129BF64550057BB6E /* AccountView.swift in Sources */,
+				112DA70529BFBB450057BB6E /* AddDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +469,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA0F729BF64A90057BB6E /* RecordPlayView.swift in Sources */,
+				112DA0F229BF64550057BB6E /* AccountView.swift in Sources */,
+				112DA70629BFBB450057BB6E /* AddDataView.swift in Sources */,
+				112DA0ED29BF642D0057BB6E /* EducationView.swift in Sources */,
 				112D916729BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift in Sources */,
+				112DA0E829BF63D70057BB6E /* HomeView.swift in Sources */,
 				112DA0DE29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112D916529BD120D0057BB6E /* mac_extensiLEUITests.swift in Sources */,
 			);
