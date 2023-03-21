@@ -120,7 +120,7 @@ struct AddDataView: View {
         let number_of_backhands = arrayResponse[3]
         let data_date = arrayResponse[4]
         let image_url = arrayResponse[5]
-        let new_activity = Activity(id: 1006, date: data_date, number_of_backhands: number_of_backhands, number_of_bad_backhands: bad_backhands, total_duration: play_duration, backhand_duration: duration_of_backhands, imageName: image_url)
+        let new_activity = Activity(id: 1006, date: data_date, number_of_backhands: number_of_backhands, number_of_bad_backhands: bad_backhands, total_duration: play_duration, backhand_duration: duration_of_backhands, imageName: "example_graph")// image_url)
         modelData.addActivity(new_activity)
         print("DISPLAY INFO", play_duration, bad_backhands, duration_of_backhands, number_of_backhands, data_date, image_url)
     }

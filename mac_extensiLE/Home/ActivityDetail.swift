@@ -16,24 +16,26 @@ struct ActivityDetail: View {
         ScrollView {
             Image(activity.imageName)
                 .resizable()
-                .frame(width: 525, height: 525, alignment: .center)
+                .frame(width: 400, height: 400, alignment: .center)
             VStack(alignment: .leading) {
                 HStack {
                     Text(activity.date)
-                        .font(.custom("Avenir Next", size: 30))
+                        .foregroundColor(CustomColors.White)
+                        .font(.custom("Avenir Next Bold", size: 28))
                 }
-                .foregroundColor(CustomColors.Grey)
-                    
                 Divider()
                 Text("Total Duration: \(activity.total_duration)")
+                    .foregroundColor(CustomColors.MenuColor)
                     .font(.custom("DIN Alternate Bold", size:22))
                 Text("Total Backhand Time: \((Int(activity.backhand_duration) ?? 0) / 1000) seconds")
+                    .foregroundColor(CustomColors.MenuColor)
                     .font(.custom("DIN Alternate Bold", size:22))
                 Text("Total Number of Backhands: \(activity.number_of_backhands)")
+                    .foregroundColor(CustomColors.MenuColor)
                     .font(.custom("DIN Alternate Bold", size:22))
                 Text("Number of Risky Backhands: \(activity.number_of_bad_backhands)")
+                    .foregroundColor(CustomColors.MenuColor)
                     .font(.custom("DIN Alternate Bold", size:22))
-                
             }
             .padding()
             .frame(maxWidth: 700)

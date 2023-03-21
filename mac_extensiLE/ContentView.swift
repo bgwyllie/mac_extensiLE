@@ -44,7 +44,7 @@ public struct CustomTabView: View {
                 .padding()
                 .foregroundColor(self.selection == index ? CustomColors.MenuColor : CustomColors.SelectedMenu)
                 .background(Color.black)
-                .font(.custom("DIN Condensed Bold", size:20))
+                .font(.custom("DIN Condensed Bold", size:24))
                 .onTapGesture {
                     self.selection = index
                 }
