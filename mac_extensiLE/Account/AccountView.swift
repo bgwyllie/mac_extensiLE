@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct SettingOptions: Identifiable {
-    let label: String
-    let icon: Image
-    let id = UUID()
-}
-
-private var settingOptions = [
-    SettingOptions(label: "Change password", icon: Image(systemName: "lock")),
-    SettingOptions(label: "Help", icon: Image(systemName: "questionmark.circle"))
-]
+//struct SettingOptions: Identifiable {
+//    let label: String
+//    let icon: Image
+//    let id = UUID()
+//}
+//
+//private var settingOptions = [
+//    SettingOptions(label: "Change password", icon: Image(systemName: "lock")),
+//    SettingOptions(label: "Help", icon: Image(systemName: "questionmark.circle"))
+//]
 
 
 struct AccountView: View {
@@ -30,18 +30,15 @@ struct AccountView: View {
                     .resizable()
                     .frame(width: 400, height: 160, alignment: .center)
                     .padding(10)
-                Divider()
-                Divider()
-                Divider()
+                
                 Text("Serena Williams")
                     .foregroundColor(CustomColors.BlueText)
                     .font(.custom("DIN Alternate Bold", size:22))
-                    .padding(5)
+                    .padding(10)
                 Text("swilliams@gmail.com")
                     .foregroundColor(CustomColors.BlueText)
                     .font(.custom("DIN Alternate Bold", size:22))
                 
-                Divider()
                 
                 VStack(alignment: .leading){
                     HStack {
@@ -60,7 +57,7 @@ struct AccountView: View {
                     .padding(7.5)
                     
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Image(systemName: "questionmark.circle")
@@ -77,7 +74,7 @@ struct AccountView: View {
                     }
                     .padding(7.5)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Image(systemName: "lock.shield")
@@ -94,7 +91,7 @@ struct AccountView: View {
                     }
                     .padding(7.5)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Image(systemName: "tennisball")
@@ -111,7 +108,7 @@ struct AccountView: View {
                     }
                     .padding(7.5)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Image(systemName: "rectangle.portrait.and.arrow.forward")
@@ -134,8 +131,3 @@ struct AccountView: View {
     }
 }
 
-struct AccountView_Previews: PreviewProvider {
-    static var previews: some View {
-        AccountView()
-    }
-}

@@ -37,9 +37,3 @@ struct EducationView: View {
         }
     }
 }
-
-struct EducationView_Previews: PreviewProvider {
-    static var previews: some View {
-        EducationView()
-    }
-}

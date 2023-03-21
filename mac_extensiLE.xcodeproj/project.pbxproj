@@ -22,12 +22,6 @@
 		112DA0D729BE67B00057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; };
 		112DA0D829BE67B00057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; };
 		112DA0DA29BE691C0057BB6E /* python-stdlib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 112DA0D529BE67B00057BB6E /* python-stdlib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		112DA0DC29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
-		112DA0DD29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
-		112DA0DE29BE6D150057BB6E /* PythonKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */; };
-		112DA0E129BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
-		112DA0E229BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
-		112DA0E329BEA80E0057BB6E /* hello.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA0E029BEA80E0057BB6E /* hello.py */; };
 		112DA0E629BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
 		112DA0E729BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
 		112DA0E829BF63D70057BB6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA0E529BF63D70057BB6E /* HomeView.swift */; };
@@ -43,12 +37,22 @@
 		112DA70429BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
 		112DA70529BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
 		112DA70629BFBB450057BB6E /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA70329BFBB450057BB6E /* AddDataView.swift */; };
-		112DA70929BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
-		112DA70A29BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
-		112DA70B29BFC1010057BB6E /* UploadData.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA70829BFC1010057BB6E /* UploadData.py */; };
 		112DA71129C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
 		112DA71229C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
 		112DA71329C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */ = {isa = PBXBuildFile; fileRef = 112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */; };
+		112DA71E29C7867E0057BB6E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA71D29C7867E0057BB6E /* Activity.swift */; };
+		112DA71F29C7867E0057BB6E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA71D29C7867E0057BB6E /* Activity.swift */; };
+		112DA72029C7867E0057BB6E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA71D29C7867E0057BB6E /* Activity.swift */; };
+		112DA72229C7870E0057BB6E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72129C7870E0057BB6E /* ModelData.swift */; };
+		112DA72329C7870E0057BB6E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72129C7870E0057BB6E /* ModelData.swift */; };
+		112DA72429C7870E0057BB6E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72129C7870E0057BB6E /* ModelData.swift */; };
+		112DA72629C788DF0057BB6E /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72529C788DF0057BB6E /* ActivityDetail.swift */; };
+		112DA72729C788DF0057BB6E /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72529C788DF0057BB6E /* ActivityDetail.swift */; };
+		112DA72829C788DF0057BB6E /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72529C788DF0057BB6E /* ActivityDetail.swift */; };
+		112DA72A29C789F90057BB6E /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72929C789F90057BB6E /* ActivityList.swift */; };
+		112DA72B29C789F90057BB6E /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72929C789F90057BB6E /* ActivityList.swift */; };
+		112DA72C29C789F90057BB6E /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DA72929C789F90057BB6E /* ActivityList.swift */; };
+		112DA73429C8DE350057BB6E /* activityData.json in Resources */ = {isa = PBXBuildFile; fileRef = 112DA73329C8DE350057BB6E /* activityData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,15 +100,17 @@
 		112DA0C429BE645C0057BB6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		112DA0D129BE67A60057BB6E /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
 		112DA0D529BE67B00057BB6E /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
-		112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonKitTest.swift; sourceTree = "<group>"; };
-		112DA0E029BEA80E0057BB6E /* hello.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hello.py; sourceTree = "<group>"; };
 		112DA0E529BF63D70057BB6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		112DA0EA29BF642D0057BB6E /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 		112DA0EF29BF64550057BB6E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		112DA0F429BF64A90057BB6E /* RecordPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayView.swift; sourceTree = "<group>"; };
 		112DA70329BFBB450057BB6E /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
-		112DA70829BFC1010057BB6E /* UploadData.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = UploadData.py; sourceTree = "<group>"; };
 		112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ClassificationAlgorithms.py; sourceTree = "<group>"; };
+		112DA71D29C7867E0057BB6E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		112DA72129C7870E0057BB6E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		112DA72529C788DF0057BB6E /* ActivityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetail.swift; sourceTree = "<group>"; };
+		112DA72929C789F90057BB6E /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		112DA73329C8DE350057BB6E /* activityData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activityData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,19 +169,18 @@
 		112D914729BD120C0057BB6E /* mac_extensiLE */ = {
 			isa = PBXGroup;
 			children = (
+				112DA71C29C786280057BB6E /* Model */,
 				112DA70729BFC0E90057BB6E /* PythonFiles */,
 				112DA70229BFBB2C0057BB6E /* AddData */,
 				112DA0F329BF64990057BB6E /* RecordPlay */,
 				112DA0EE29BF64480057BB6E /* Account */,
 				112DA0E929BF64130057BB6E /* Education */,
 				112DA0E429BF63BF0057BB6E /* Home */,
-				112DA0DF29BEA7D90057BB6E /* PythonTests */,
 				112D914829BD120C0057BB6E /* mac_extensiLEApp.swift */,
 				112D914A29BD120C0057BB6E /* ContentView.swift */,
 				112D914C29BD120D0057BB6E /* Assets.xcassets */,
 				112D915129BD120D0057BB6E /* mac_extensiLE.entitlements */,
 				112D914E29BD120D0057BB6E /* Preview Content */,
-				112DA0DB29BE6D150057BB6E /* PythonKitTest.swift */,
 			);
 			path = mac_extensiLE;
 			sourceTree = "<group>";
@@ -213,17 +218,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		112DA0DF29BEA7D90057BB6E /* PythonTests */ = {
-			isa = PBXGroup;
-			children = (
-				112DA0E029BEA80E0057BB6E /* hello.py */,
-			);
-			path = PythonTests;
-			sourceTree = "<group>";
-		};
 		112DA0E429BF63BF0057BB6E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				112DA72929C789F90057BB6E /* ActivityList.swift */,
+				112DA72529C788DF0057BB6E /* ActivityDetail.swift */,
 				112DA0E529BF63D70057BB6E /* HomeView.swift */,
 			);
 			path = Home;
@@ -264,10 +263,19 @@
 		112DA70729BFC0E90057BB6E /* PythonFiles */ = {
 			isa = PBXGroup;
 			children = (
-				112DA70829BFC1010057BB6E /* UploadData.py */,
 				112DA71029C75E4E0057BB6E /* ClassificationAlgorithms.py */,
 			);
 			path = PythonFiles;
+			sourceTree = "<group>";
+		};
+		112DA71C29C786280057BB6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				112DA71D29C7867E0057BB6E /* Activity.swift */,
+				112DA72129C7870E0057BB6E /* ModelData.swift */,
+				112DA73329C8DE350057BB6E /* activityData.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,9 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112DA71229C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
-				112DA70A29BFC1010057BB6E /* UploadData.py in Resources */,
 				112DA0D729BE67B00057BB6E /* python-stdlib in Resources */,
-				112DA0E229BEA80E0057BB6E /* hello.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112DA71329C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
-				112DA70B29BFC1010057BB6E /* UploadData.py in Resources */,
 				112DA0D829BE67B00057BB6E /* python-stdlib in Resources */,
-				112DA0E329BEA80E0057BB6E /* hello.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,11 +408,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112DA0E129BEA80E0057BB6E /* hello.py in Resources */,
+				112DA73429C8DE350057BB6E /* activityData.json in Resources */,
 				112DA0D629BE67B00057BB6E /* python-stdlib in Resources */,
 				112DA0C629BE64680057BB6E /* Assets.xcassets in Resources */,
 				112DA71129C75E4E0057BB6E /* ClassificationAlgorithms.py in Resources */,
-				112DA70929BFC1010057BB6E /* UploadData.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +445,14 @@
 			files = (
 				112DA0F529BF64A90057BB6E /* RecordPlayView.swift in Sources */,
 				112DA0F029BF64550057BB6E /* AccountView.swift in Sources */,
+				112DA72A29C789F90057BB6E /* ActivityList.swift in Sources */,
 				112DA70429BFBB450057BB6E /* AddDataView.swift in Sources */,
 				112DA0EB29BF642D0057BB6E /* EducationView.swift in Sources */,
+				112DA72229C7870E0057BB6E /* ModelData.swift in Sources */,
 				112D914B29BD120C0057BB6E /* ContentView.swift in Sources */,
 				112DA0E629BF63D70057BB6E /* HomeView.swift in Sources */,
-				112DA0DC29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
+				112DA71E29C7867E0057BB6E /* Activity.swift in Sources */,
+				112DA72629C788DF0057BB6E /* ActivityDetail.swift in Sources */,
 				112D914929BD120C0057BB6E /* mac_extensiLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,13 +461,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112DA71F29C7867E0057BB6E /* Activity.swift in Sources */,
 				112DA0E729BF63D70057BB6E /* HomeView.swift in Sources */,
+				112DA72B29C789F90057BB6E /* ActivityList.swift in Sources */,
 				112DA0EC29BF642D0057BB6E /* EducationView.swift in Sources */,
-				112DA0DD29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
 				112DA0F629BF64A90057BB6E /* RecordPlayView.swift in Sources */,
 				112D915B29BD120D0057BB6E /* mac_extensiLETests.swift in Sources */,
+				112DA72329C7870E0057BB6E /* ModelData.swift in Sources */,
 				112DA0F129BF64550057BB6E /* AccountView.swift in Sources */,
 				112DA70529BFBB450057BB6E /* AddDataView.swift in Sources */,
+				112DA72729C788DF0057BB6E /* ActivityDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,11 +480,14 @@
 			files = (
 				112DA0F729BF64A90057BB6E /* RecordPlayView.swift in Sources */,
 				112DA0F229BF64550057BB6E /* AccountView.swift in Sources */,
+				112DA72C29C789F90057BB6E /* ActivityList.swift in Sources */,
 				112DA70629BFBB450057BB6E /* AddDataView.swift in Sources */,
 				112DA0ED29BF642D0057BB6E /* EducationView.swift in Sources */,
+				112DA72429C7870E0057BB6E /* ModelData.swift in Sources */,
 				112D916729BD120D0057BB6E /* mac_extensiLEUITestsLaunchTests.swift in Sources */,
 				112DA0E829BF63D70057BB6E /* HomeView.swift in Sources */,
-				112DA0DE29BE6D150057BB6E /* PythonKitTest.swift in Sources */,
+				112DA72029C7867E0057BB6E /* Activity.swift in Sources */,
+				112DA72829C788DF0057BB6E /* ActivityDetail.swift in Sources */,
 				112D916529BD120D0057BB6E /* mac_extensiLEUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +626,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = mac_extensiLE/mac_extensiLE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -623,6 +636,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = extensiLE;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -641,6 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = mac_extensiLE/mac_extensiLE.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -650,6 +665,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = extensiLE;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

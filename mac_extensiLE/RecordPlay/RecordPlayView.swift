@@ -21,16 +21,16 @@ struct RecordPlayView: View {
                 Text("Select Device")
                     .foregroundColor(CustomColors.BlueText)
                     .font(.custom("DIN Alternate Bold", size:22))
-                Divider()
+                    .padding(5)
                 Text("Make sure your Bluetooth is turn on and the device is in range")
                     .font(.custom("DIN Alternate Bold", size:22))
                     .foregroundColor(CustomColors.BlueText)
                     .frame(width: 370)
                     .multilineTextAlignment(.center)
-                Divider()
+                    .padding(5)
                 VStack{
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Text("Cedric's extensiLE")
@@ -43,7 +43,7 @@ struct RecordPlayView: View {
                     }
                     .padding(10)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) //  / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Text("Milena's extensiLE")
@@ -56,7 +56,7 @@ struct RecordPlayView: View {
                     }
                     .padding(10)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) // / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                     HStack {
                         Text("Teresa's extensiLE")
@@ -69,11 +69,10 @@ struct RecordPlayView: View {
                     }
                     .padding(10)
                     VStack {
-                        CustomColors.MenuColor.frame(width:400, height: 1) //  / UIScreen.main.scale)
+                        CustomColors.MenuColor.frame(width:400, height: 1)
                     }
                 }
-                Divider()
-                Divider()
+                .padding(10)
                 Button("PAIR DEVICE", action: {})
                     .frame(width: 320, height: 70, alignment: .center)
                     .background(CustomColors.logoBlue)
@@ -89,11 +88,5 @@ struct RecordPlayView: View {
                     .font(.custom("DIN Alternate Bold", size:18))
             }
         }
-    }
-}
-
-struct RecordPlayView_Previews: PreviewProvider {
-    static var previews: some View {
-        RecordPlayView()
     }
 }
